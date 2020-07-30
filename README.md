@@ -4,7 +4,7 @@
 1. git
 2. python3
 3. pip
-4. openpyxl(install via pip)
+4. openpyxl(`pip install openpyxl`)
 ## Optional Steps
 
   Create a directory
