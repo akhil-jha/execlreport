@@ -3,7 +3,7 @@
 ## Requirements
 1. git
 2. python3
-
+3. openpyxl
 ## Optional Steps
 
   Create a directory

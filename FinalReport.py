@@ -17,6 +17,7 @@ def common_keywords(cal_val):
                 temp.append(keyword)
         temp = ",".join(temp)
         data.cell(row=i, column=cal_val + 3).value = temp
+    data.cell(row=1, column=8).value = "Common from F and G"
     content.save(file)
 
 
