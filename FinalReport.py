@@ -15,7 +15,7 @@ def common_keywords(cal_val):
         for keyword in keywords:
             if keyword in problem_description:
                 temp.append(keyword)
-        temp = " ".join(temp)
+        temp = ",".join(temp)
         data.cell(row=i, column=cal_val + 3).value = temp
     content.save(file)
 
@@ -36,8 +36,8 @@ else:
     file_exists(file)
 
 
-data_sheet_name = input("\nEnter sheet name: ")
-component_sheet_name = input("\nEnter sheet name with components: ")
+data_sheet_name = input("\nEnter sheet name(Case Volume): ")
+component_sheet_name = input("\nEnter sheet name(Keywords): ")
 
 print("\nIn progress...\n")
 content = op.load_workbook(file)
@@ -54,4 +54,5 @@ for i in (3, 4):
     common_keywords(i)
 print("Done")
 exit(0)
+
 
