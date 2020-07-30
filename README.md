@@ -3,7 +3,8 @@
 ## Requirements
 1. git
 2. python3
-3. openpyxl
+3. pip
+4. openpyxl(install via pip)
 ## Optional Steps
 
   Create a directory
